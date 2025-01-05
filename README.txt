@@ -21,7 +21,7 @@ To start fastapi backend server
 ngrok for https tunneling
 ================================
 1. To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
-2. Extract the zip file and place ngrok.exe in a folder.
+2. Extract the zip file and place ngrok.exe in backend folder.
 3. Open windows command prompt, go to that folder and run this command: ngrok http 80000
 
 NOTE: ngrok can timeout. you need to restart the session if you see session expired message.
