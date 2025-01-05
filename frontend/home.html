@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Chatbot styles */
+        .chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            border: none; 
+            box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.474);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#home">HOME</a> |
+                <a href="#menu">MENU</a> |
+                <a href="#location">LOCATION</a> |
+                <a href="#aboutus">ABOUT US</a> |
+                <a href="#contactus">CONTACT US</a>
+            </nav>
+        </header>
+
+        <section id="home">
+            <img src="banner.jpg" alt="Banner">
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="grid-container">
+                <img src="menu1.jpg" alt="Menu item 1">
+                <img src="menu2.jpg" alt="Menu item 2">
+                <img src="menu3.jpg" alt="Menu item 3">
+            </div>
+        </section>
+
+        <section id="location">
+            <h2>Location</h2>
+            <p>1st main, Electronic City, Bengaluru-560100, Karnataka</p>
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <p>Got questions? Want to place an order? Call us at +913001002005 or email us at info@atliqfastfood.com</p>
+        </section>
+
+        <!-- Chatbot iframe -->
+        <iframe class="chatbot-container" width="350" height="430" allow="microphone;"
+            src="https://console.dialogflow.com/api-client/demo/embedded/221918c6-4da6-4019-9a11-96546cfa6814"></iframe>
+    </div>
+</body>
+
+</html>
